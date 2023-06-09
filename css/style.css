@@ -1,0 +1,225 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: thistle;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: rgb(97, 53, 53);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(199, 54, 14);
+    transform-style: flat;
+}
+
+.myself {
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+.myself h1 {
+    font-size: 50px;
+    color: rgb(112, 72, 72);
+    margin-bottom: 20px;
+    margin-top: 10;
+
+}
+
+span{
+    color: rgb(87, 19, 19);
+}
+
+.myself p{
+    color: rgb(10, 3, 3);
+    line-height:  20px;
+}
+
+/*Working on buttons*/
+
+.myself button{
+    background: rgb(24, 22, 22);
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: double;
+    font-weight: bold;
+    color: rgb(123, 116, 104);
+    margin-left: 10%;
+    border-radius: 5px;
+
+}
+
+.btn {
+    background: rgb(201, 156, 156);
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 100PX;
+    border-radius: 10px;
+}
+.btn1 {
+    background: rgb(192, 161, 161);
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: double;
+    font-weight: bold;
+    color: rgb(104, 49, 49);
+    margin: 30px 10PX;
+    border-radius: 5px;
+    
+}
+
+.btn2 {
+    background: rgb(192, 161, 161);
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: double;
+    font-weight: bold;
+    color: rgb(71, 31, 31);
+    margin: 30px 0;
+    border-radius: 5px;
+    
+}
+
+.resumeBtn:hover {
+    color: brown;
+}
+
+/*Images */
+.photos {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    
+}
+
+.photos img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+.photos:hover .nice {
+    left: 65%;
+}
+.photos:hover .portrait {
+    right: 45%;
+}
+
+/* Section below the buttons */
+
+h2 {
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px black;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.services {
+    align-content: center;
+}
+
+body .container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: whitesmoke;
+}
+
+.container *{
+    margin: 0;
+    padding: 2px;
+}
+.container {
+    display: flex;
+}
+
+.card {
+    height: 350px;
+    margin: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(192, 191, 189);
+    border-radius: 10px;
+    overflow: visible;
+    font-weight: 50px;
+    bottom: 150px;
+}
+.container img {
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 50px;
+}
+/*For the image cards*/
+.intro {
+    height: 110px;
+    width: 150px;
+    padding: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    color: rgb(126, 55, 55);
+}
+
+.cardbtn {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 3px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 10px 100PX;
+    border-radius: 10px;
+}
+
+/*Paragraph 2*/
+
+.paragraph2 {
+    padding: 30px 30px 20px 20px;
+    font-style: italic;
+}
+
+footer {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-style: oblique;
+}
+hr {
+    height: 2vh;
+    background-color: rgb(111, 97, 79);
+}
