@@ -63,7 +63,7 @@ span{
 
 /*Working on buttons*/
 
-.myself button{
+/* .myself button{
     background: rgb(24, 22, 22);
     display: inline-block;
     padding: 10px 20px;
@@ -73,23 +73,29 @@ span{
     margin-left: 10%;
     border-radius: 5px;
 
-}
+} */
+
 
 .btn {
-    background: rgb(201, 156, 156);
+    background: rgb(203, 140, 140);
     display: inline-block;
-    padding: 10px 20px;
-    margin: 10px 100PX;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     border-radius: 10px;
 }
 .btn1 {
+    
     background: rgb(192, 161, 161);
     display: inline-block;
     padding: 10px 20px;
     text-decoration: double;
     font-weight: bold;
-    color: rgb(104, 49, 49);
-    margin: 30px 10PX;
+    color: rgb(71, 31, 31);
+    margin: 30px 0;
     border-radius: 5px;
     
 }
@@ -110,10 +116,6 @@ span{
 }
 .btn1 :hover {
     color: rgb(117, 68, 68);
-}
-
-.resumeBtn:hover {
-    color: brown;
 }
 
 /*Images */
