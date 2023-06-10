@@ -103,7 +103,13 @@ span{
     color: rgb(71, 31, 31);
     margin: 30px 0;
     border-radius: 5px;
-    
+}
+
+.btn2 :hover {
+    color: rgb(117, 68, 68);
+}
+.btn1 :hover {
+    color: rgb(117, 68, 68);
 }
 
 .resumeBtn:hover {
