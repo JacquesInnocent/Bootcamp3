@@ -104,7 +104,10 @@ span{
     font-weight: bold;
     color: rgb(71, 31, 31);
     margin: 30px 0;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: 2px solid;
+    align-self: center;
+    transition: all 0.2s;
 
 }
 
@@ -116,14 +119,26 @@ span{
     font-weight: bold;
     color: rgb(71, 31, 31);
     margin: 30px 0;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: 2px solid;
+    align-self: center;
+    transition: all 0.2s;
+
 }
 
 .btn2 :hover {
-    color: rgb(117, 68, 68);
+    /* color: rgb(117, 68, 68); */
+    border-color: inherit;
+    box-shadow: 1px 5px 3px 1px #353531;
+    color: rgb(71, 31, 31,);
+    /* transform: translate(-3px, -7px); */
 }
 .btn1 :hover {
-    color: rgb(117, 68, 68);
+    /* color: rgb(117, 68, 68); */
+    border-color: inherit;
+    box-shadow: 1px 5px 3px 1px #353531;
+    color: rgb(71, 31, 31,);
+    
 }
 
 /*Images */
@@ -159,8 +174,9 @@ span{
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    text-shadow: 2px black;
-    margin-top: 10%;
+    text-decoration-style: wavy;
+    margin-top: 5%;
+    margin-bottom: 5%;
     
 }
 
@@ -173,7 +189,7 @@ body .container{
     justify-content: center;
     height: 100vh;
     align-items: center;
-    background: whitesmoke;
+    margin: auto;
 }
 
 .container *{
@@ -188,7 +204,7 @@ body .container{
 .card {
     height: 400px;
     margin: 5px;
-    margin-top: auto;
+    margin-bottom: 10%;
     box-shadow: 5px 5px 5px 5px rgb(192, 191, 189);
     border-radius: 10px;
     overflow: visible;
@@ -208,7 +224,7 @@ body .container{
 /*For the image cards*/
 .intro {
     height: 100px;
-    width: 150px;
+    width: inherit;
     padding: 5px;
     box-sizing: border-box;
     position: absolute;
