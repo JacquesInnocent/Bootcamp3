@@ -199,6 +199,8 @@ body .container{
 }
 .container {
     display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .card {
@@ -245,6 +247,11 @@ body .container{
     margin-top: auto;
     margin-bottom: auto;
     border-radius: 10px;
+}
+
+.card .cardbtn {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /*Paragraph*/
