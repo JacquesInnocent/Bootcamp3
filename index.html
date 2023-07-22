@@ -128,6 +128,33 @@
     </div>
 
 
+    <!-- Javascript for displaying the personal Github profile -->
+
+    <script>
+    
+        const username = 'JacquesInnocent';
+        const token = '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';
+        const apiUrl = `https://api.github.com/users/${username}`;
+    
+        fetch(apiUrl, {
+          headers: {
+            'Authorization': `Bearer ${token}`,
+          },
+        })
+        .then(response => response.json())
+        .then(data => {
+          const profile = document.getElementById('profile');
+          profile.innerHTML = `
+            <h1>${data.name}</h1>
+            <img src="${data.avatar_url}" alt="Display Picture" width="100">
+            <p>${data.bio}</p>
+            <p>Followers: ${data.followers}</p>
+            <p>Repositories: ${data.public_repos}</p>
+          `;
+        })
+        .catch(error => console.error('Error fetching GitHub profile:', error));
+      </script>
+
     <div>
         <hr>
         <footer>OWNERSHIP COPYRIGHT RESERVED. 2023</footer>
